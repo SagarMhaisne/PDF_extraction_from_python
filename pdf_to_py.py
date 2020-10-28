@@ -8,7 +8,7 @@ Created on Sun Oct 25 19:51:26 2020
 from PyPDF2 import PdfFileReader
 
 #opening the pdf file in a read binary mode
-file = open('SQL.pdf','rb')
+file = open('sample.pdf','rb')
 
 reader = PdfFileReader(file)
 
